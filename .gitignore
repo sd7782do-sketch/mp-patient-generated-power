@@ -1,20 +1,17 @@
-# Patient-level data must never be committed (PhysioNet data use agreement)
+# Nessun dato a livello paziente nel repository (PhysioNet DUA)
 *.csv
 *.csv.gz
-*.parquet
+*.rds
+*.RData
+*.rda
+.Rhistory
+.Rproj.user/
 *.duckdb
 *.duckdb.wal
-*.tmp
-mp_study/
-mp_study_eicu/
-mp_study_nw/
-# Outputs
+*.parquet
 *.tiff
+*.tif
 *.png
 *.pdf
-*.docx
-# R
-.Rhistory
-.RData
-.Rproj.user/
-.Renviron
+revisione/
+release/

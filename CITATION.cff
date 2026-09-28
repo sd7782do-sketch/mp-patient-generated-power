@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the article and this repository."
-title: "Patient-generated and ventilator-set mechanical power and mortality: analysis code"
+title: "Excess-rate and set-rate mechanical power and mortality: analysis code"
 authors:
   - family-names: Orso
     given-names: Daniele
@@ -14,13 +14,18 @@ authors:
   - family-names: Della Rocca
     given-names: Giorgio
     affiliation: "Department of Medicine (DMED), University of Udine, Udine, Italy"
-version: 1.0.0
+version: 1.1.0
 date-released: 2026-09-28
 license: MIT
-repository-code: "https://github.com/sd7782do-sketch/mp-patient-generated-power"
+repository-code: "https://github.com/sd7782do-sketch/mp-excess-rate-power"
+identifiers:
+  - type: doi
+    value: 10.6084/m9.figshare.34012659
+    description: "Figshare archive of figures, tables, aggregate estimates, and code snapshot"
 keywords:
   - mechanical power
   - mechanical ventilation
+  - respiratory rate
   - respiratory drive
   - MIMIC-IV
   - eICU-CRD
