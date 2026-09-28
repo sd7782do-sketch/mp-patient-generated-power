@@ -6,7 +6,7 @@ Analysis code for the study:
 
 Mechanical power (MP) calculated from airway pressures is decomposed into a **ventilator-set** component (computed with the set respiratory rate) and a **patient-generated** component (computed with the rate in excess of the set rate). Associations with 28-day mortality are estimated in MIMIC-IV (derivation) and validated in eICU-CRD under a prespecified plan.
 
-Figures, tables, and aggregate model estimates are archived on Figshare: <!-- TODO: add Figshare DOI -->.
+Figures, tables, and aggregate model estimates are archived on Figshare: https://doi.org/10.6084/m9.figshare.34012659
 
 ## Data access
 
@@ -79,3 +79,4 @@ Code: MIT License (see `LICENSE`). Figures, tables, and aggregate results on Fig
 ## Citation
 
 See `CITATION.cff`.
+
