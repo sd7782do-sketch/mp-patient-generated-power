@@ -1,0 +1,20 @@
+# Patient-level data must never be committed (PhysioNet data use agreement)
+*.csv
+*.csv.gz
+*.parquet
+*.duckdb
+*.duckdb.wal
+*.tmp
+mp_study/
+mp_study_eicu/
+mp_study_nw/
+# Outputs
+*.tiff
+*.png
+*.pdf
+*.docx
+# R
+.Rhistory
+.RData
+.Rproj.user/
+.Renviron
